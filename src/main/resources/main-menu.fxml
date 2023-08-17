@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="15.0" prefWidth="650.0" style="-fx-background-color: #000000;" />
+      <BorderPane layoutX="640.0" prefHeight="430.0" prefWidth="15.0" style="-fx-background-color: #000000;" />
+      <BorderPane layoutY="416.0" prefHeight="15.0" prefWidth="655.0" style="-fx-background-color: #000000;" />
+      <BorderPane prefHeight="430.0" prefWidth="15.0" style="-fx-background-color: #000000;" />
+      <BorderPane layoutX="15.0" layoutY="15.0" prefHeight="401.0" prefWidth="40.0" style="-fx-background-color: #C0C0C0;" />
+      <BorderPane layoutX="20.0" layoutY="15.0" prefHeight="40.0" prefWidth="620.0" style="-fx-background-color: #C0C0C0;">
+         <left>
+            <Button fx:id="idmenu" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" BorderPane.alignment="CENTER" />
+         </left>
+      </BorderPane>
+      <BorderPane layoutX="15.0" layoutY="411.0" prefHeight="5.0" prefWidth="620.0" style="-fx-background-color: #C0C0C0;" />
+      <BorderPane layoutX="635.0" layoutY="15.0" prefHeight="401.0" prefWidth="5.0" style="-fx-background-color: #C0C0C0;" />
+      <Button fx:id="idwalk" layoutX="85.0" layoutY="85.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Идущий человек" />
+      <Button fx:id="idrun" layoutX="85.0" layoutY="145.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Бегущий человек" />
+      <Button fx:id="idcrouch" layoutX="85.0" layoutY="205.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Приседающий человек" />
+      <Button fx:id="idwave" layoutX="85.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="230.0" text="Человек сигнализирующий флажком" />
+      <Pane fx:id="iddisplay" layoutX="345.0" layoutY="85.0" prefHeight="260.0" prefWidth="260.0" style="-fx-background-color: #DCDCDC;" />
+      <Button fx:id="idplay" layoutX="460.0" layoutY="353.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+      <Button fx:id="idstop" layoutX="400.0" layoutY="353.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+      <Button fx:id="idclean" layoutX="520.0" layoutY="353.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+   </children>
+</AnchorPane>
